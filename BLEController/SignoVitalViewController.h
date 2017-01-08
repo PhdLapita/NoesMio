@@ -26,6 +26,7 @@
 @property int indicatorType;
 @property (weak, nonatomic) IBOutlet UILabel *lbTitleDescription;
 
+
 @property (strong, nonatomic) BLE *ble;
 @property (strong, nonatomic) RBLProtocol *protocol;
 @property BOOL switchActivated;
